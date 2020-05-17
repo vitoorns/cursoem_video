@@ -4,4 +4,4 @@ dinheiro = float(input('Digite o valor de dinheiro na carteira: '))
 dollar = float (input('Digite o valor do dolar: '))
 calculo = dinheiro/dollar
 
-print ('com esse valor {} você pode comprar: R${}0'.format(dinheiro, calculo))
+print ('com esse valor {} você pode comprar: US${:.2f}0'.format(dinheiro, calculo))
